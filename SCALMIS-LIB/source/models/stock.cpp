@@ -26,6 +26,12 @@ void Stock::setServiceModel(){
         service->derivedEntities().at(i)->state->setVal(1);
     }
 }
+QQmlListProperty<StockItem> Stock::ui_stock(){
+    return QQmlListProperty<StockItem>(this, &stockItems->derivedEntities());
+}
+QQmlListProperty<Service> Stock::ui_service(){
+    return QQmlListProperty<Service>(this, &service->derivedEntities());
+}
 void Stock::removeItem(){
     stockItems->remove();
     if(stockItems->derivedEntities().size()) stockItems->derivedEntities().last()->state->setVal(0);
@@ -50,12 +56,6 @@ void Stock::clearStock(){
     for(int i = 0; i < len2; i++)service->remove();
     emit stockChanged();
     emit servicesChanged();
-}
-QQmlListProperty<StockItem> Stock::ui_stock(){
-    return QQmlListProperty<StockItem>(this, &stockItems->derivedEntities());
-}
-QQmlListProperty<Service> Stock::ui_service(){
-    return QQmlListProperty<Service>(this, &service->derivedEntities());
 }
 Stock::~Stock(){}
 

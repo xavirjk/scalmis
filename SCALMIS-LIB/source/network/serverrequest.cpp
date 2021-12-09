@@ -259,7 +259,7 @@ void ServerRequest::saveFile(const QByteArray &data){
         dir = new QDir();
         file.setFileName(dir->currentPath()+"/s_update.exe");
         if(file.exists()){
-            QString args =implementation->getV();
+            QString args =implementation->getV()+" "+"update"+" "+"scalmis";
             HINSTANCE  hres;
             hres = ShellExecute(nullptr, L"runas", file.fileName().toStdWString().c_str(), args.toStdWString().c_str(), nullptr, SW_SHOW);
             emit quitApp();

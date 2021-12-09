@@ -7,7 +7,7 @@ Item {
     Connections {
         target: masterController
         function onViewUpdates(data){
-            if(!data) {
+            if(!data.scalmis&&!data.server) {
                 col.visible = false
                 toDate.visible = true
             }

@@ -336,6 +336,7 @@ void CommandController::generateInvoicePeriod(){
     implementation->serverRequest->fileHandling(true);
     implementation->serverRequest->update(false);
     QJsonObject obj = implementation->invoicePeriod->getCompleteJson();
+    qDebug()<<obj;
     obj["office"] = implementation->requests->office->inputVal().trimmed();
     if(implementation->requests->officer->inputVal().toInt())
         obj["pjno"] = implementation->requests->officer->inputVal().trimmed();
@@ -449,6 +450,7 @@ void CommandController::downloadUpdate(int app){
     else {
         QJsonObject obj;
         obj["url"] = implementation->serverRequest->uri().url();
+        obj["version"] = implementation->checked[app].toObject().find("version").value().toString();
         implementation->serverRequest->setUrl(implementation->admin+"update/server/");
         implementation->serverRequest->executePost(QJsonDocument(obj).toJson(),
                                                    implementation->authToken.find("token")->toString());
