@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/components">
+        <file alias="LoginForm.qml">components/LoginForm.qml</file>
+        <file alias="PageDesc.qml">components/PageDesc.qml</file>
+        <file alias="StringInput.qml">components/StringInput.qml</file>
+        <file alias="CustomBorder.qml">components/CustomBorder.qml</file>
+        <file alias="ActionButton.qml">components/ActionButton.qml</file>
+        <file alias="AdminNavBar.qml">components/AdminNavBar.qml</file>
+        <file alias="NavigationButton.qml">components/NavigationButton.qml</file>
+        <file alias="Base.qml">components/Base.qml</file>
+        <file alias="NewStock.qml">components/NewStock.qml</file>
+        <file alias="CStockItem.qml">components/CStockItem.qml</file>
+        <file alias="IconButton.qml">components/IconButton.qml</file>
+        <file alias="StockEditor.qml">components/StockEditor.qml</file>
+        <file alias="StringEditor.qml">components/StringEditor.qml</file>
+        <file alias="CommandBar.qml">components/CommandBar.qml</file>
+        <file alias="CmdButton.qml">components/CmdButton.qml</file>
+        <file alias="RequestItem.qml">components/RequestItem.qml</file>
+        <file alias="SelectReqItems.qml">components/SelectReqItems.qml</file>
+        <file alias="RequestEditor.qml">components/RequestEditor.qml</file>
+        <file alias="CRequestItem.qml">components/CRequestItem.qml</file>
+        <file alias="DateInput.qml">components/DateInput.qml</file>
+        <file alias="ViewStock.qml">components/ViewStock.qml</file>
+        <file alias="CStock.qml">components/CStock.qml</file>
+        <file alias="ViewItems.qml">components/ViewItems.qml</file>
+        <file alias="IntInput.qml">components/IntInput.qml</file>
+        <file alias="AdminDashboard.qml">components/AdminDashboard.qml</file>
+        <file alias="CreateUser.qml">components/CreateUser.qml</file>
+        <file alias="ViewIssuedItems.qml">components/ViewIssuedItems.qml</file>
+        <file alias="ViewStockItems.qml">components/ViewStockItems.qml</file>
+        <file alias="qmldir">components/qmldir</file>
+        <file alias="Collapsable.qml">components/Collapsable.qml</file>
+        <file alias="ServiceEditor.qml">components/ServiceEditor.qml</file>
+        <file alias="CStockService.qml">components/CStockService.qml</file>
+        <file alias="ServiceRequestEditor.qml">components/ServiceRequestEditor.qml</file>
+        <file alias="CRequestService.qml">components/CRequestService.qml</file>
+    </qresource>
+</RCC>

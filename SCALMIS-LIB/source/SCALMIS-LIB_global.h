@@ -1,0 +1,12 @@
+#ifndef SCALMISLIB_GLOBAL_H
+#define SCALMISLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SCALMISLIB_LIBRARY)
+#  define SCALMISLIB_EXPORT Q_DECL_EXPORT
+#else
+#  define SCALMISLIB_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SCALMISLIB_GLOBAL_H

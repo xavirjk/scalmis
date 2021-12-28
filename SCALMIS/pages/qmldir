@@ -1,0 +1,5 @@
+GenerateInvoice 1.0 GenerateInvoice.qml
+NewService 1.0 NewService.qml
+selectReqServices 1.0 selectReqServices.qml
+ViewUsers.qml 1.0 ViewUsers.qml
+CheckForUpdates.qml 1.0 CheckForUpdates.qml

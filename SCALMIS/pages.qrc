@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/pages">
+        <file alias="qmldir">pages/qmldir</file>
+        <file alias="GenerateInvoice.qml">pages/GenerateInvoice.qml</file>
+        <file alias="NewService.qml">pages/NewService.qml</file>
+        <file alias="selectReqServices.qml">pages/selectReqServices.qml</file>
+        <file alias="ViewUsers.qml">pages/ViewUsers.qml</file>
+        <file alias="CheckForUpdates.qml">pages/CheckForUpdates.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file alias="qmldir">assets/qmldir</file>
+        <file alias="style.qml">assets/style.qml</file>
+        <file alias="index.js">assets/index.js</file>
+        <file alias="fontawesome.otf">assets/Font Awesome 5 Free-Solid-900.otf</file>
+        <file alias="boxFiles.jpg">assets/910289_2.jpg</file>
+        <file alias="fresha.jpg">assets/1554724563783.jpg</file>
+        <file alias="electricals.jpg">assets/electrical-accessories-23266700.jpg</file>
+        <file alias="keringet.jpg">assets/keringet-lead-desktop.jpg</file>
+        <file alias="towels.jpg">assets/Product-200641621493.jpg</file>
+        <file alias="dormans2C.jpg">assets/dormans2C.jpg</file>
+        <file alias="javac.jpg">assets/javac.jpg</file>
+        <file alias="judiciaryLogo.jpg">assets/judiciaryLogo.jpg</file>
+    </qresource>
+</RCC>
